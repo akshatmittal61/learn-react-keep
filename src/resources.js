@@ -1,28 +1,28 @@
 let notes = [
 	{
 		title: "Google I/O",
-		description:
+		about:
 			"Google I/O is back May 18-20, online, and free for everyone. Join us live.",
 		color: "blue",
 	},
 	{
 		title: "SVG illustrations",
-		description: "Free SVGs illustrations for lot of purposes",
+		about: "Free SVGs illustrations for lot of purposes",
 		color: "purple",
 	},
 	{
 		title: "Elijah",
-		description: "Family is Power, Niklaus.",
+		about: "Family is Power, Niklaus.",
 		color: "purple",
 	},
 	{
 		title: "Klaus",
-		description: "Read the poem The Poison Apple.",
+		about: "Read the poem The Poison Apple.",
 		color: "purple",
 	},
 	{
 		title: "Eva",
-		description:
+		about:
 			"Isn't it funny ? The people who we despise the most, are the people who are most like us",
 		color: "indigo",
 	},
