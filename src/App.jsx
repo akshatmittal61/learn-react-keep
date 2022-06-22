@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./components/Header/Header";
+import { fruits } from "./resources";
 import "./style.css";
 
 const App = () => {
-	let fruits = ["Mango", "Apple", "Banana"];
 	return (
 		<>
 			<Header />
