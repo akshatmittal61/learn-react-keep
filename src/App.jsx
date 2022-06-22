@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header/Header";
+import Note from "./components/Note/Note";
 import notes, { fruits } from "./resources";
 import "./style.css";
 
@@ -12,14 +13,7 @@ const App = () => {
 			})}
 			{notes.map((note, index) => {
 				return (
-					<div
-						className="note"
-						style={{ backgroundColor: note.color }}
-						key={index}
-					>
-						<h2>{note.title}</h2>
-						<p>{note.about}</p>
-					</div>
+					<Note title={note.title} desc={note.about} color={note.color} />
 				);
 			})}
 		</>
